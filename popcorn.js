@@ -1,3 +1,14 @@
+/*
+ * Popcorn.js
+ * Version @VERSION
+ * Authors: Rick Waldron, Anna Sobiepanek, Scott Downe
+ * 
+ * Popcorn.js 0.1
+ * Original Authors:  Center for Development of Open Technology @ Seneca College  
+ * Brett Gaylor, Dave Humphrey, Scott Downe, Daniel Hodgin, Anna Sobiepanek, Nick Cammarata
+ *
+ */
+
 (function(global, document) {
 
   //  Cache refs to speed up calls to native utils

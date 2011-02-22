@@ -3,6 +3,8 @@ PREFIX = .
 BUILD_DIR = ${PREFIX}/build
 DIST_DIR = ${PREFIX}/dist
 
+#Version
+VERSION = 0.04
 
 RHINO ?= java -jar ${BUILD_DIR}/js.jar
 
@@ -30,8 +32,8 @@ p: ${POPCORN_DIST}
 
 ${POPCORN_DIST}: ${POPCORN_SRC} | ${DIST_DIR}
 	@@echo "Building" ${POPCORN_DIST}
-
-	@@cat ${POPCORN_SRC} > ${POPCORN_DIST};	
+	
+	@@cat ${POPCORN_SRC} | sed 's/@VERSION/${VERSION}/' > ${POPCORN_DIST};	
 	
 
 min: ${POPCORN_MIN}
