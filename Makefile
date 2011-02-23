@@ -4,7 +4,7 @@ BUILD_DIR = ${PREFIX}/build
 DIST_DIR = ${PREFIX}/dist
 
 #Version
-VERSION = 0.04
+VERSION ?= $(error Specify a version for your release (e.g., VERSION=0.5))
 
 RHINO ?= java -jar ${BUILD_DIR}/js.jar
 

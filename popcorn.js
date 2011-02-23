@@ -1,13 +1,11 @@
 /*
- * Popcorn.js
- * Version @VERSION
- * Authors: Rick Waldron, Anna Sobiepanek, Scott Downe
- * 
- * Popcorn.js 0.1
- * Original Authors:  Center for Development of Open Technology @ Seneca College  
- * Brett Gaylor, Dave Humphrey, Scott Downe, Daniel Hodgin, Anna Sobiepanek, Nick Cammarata
+ * popcorn.js version @VERSION
+ * http://popcornjs.org
  *
+ * Copyright 2011, Mozilla Foundation
+ * Licensed under the MIT license
  */
+
 
 (function(global, document) {
 
